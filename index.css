@@ -11,11 +11,10 @@ body{
     background-position: center;
 }
 .container {
-    background-color: rgba(15, 15, 15, 0.85); /* Dark grey/black with 85% opacity */
-    border-radius: 15px; /* Thode gol corners */
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.6); /* Background pe shadow */
-    border: 2px solid #333; /* Ek subtle border */
-    /* Baki margin/padding jo teri pehle thi wo same rakhna */
+    background-color: rgba(15, 15, 15, 0.85); 
+    border-radius: 15px; 
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.6); 
+    border: 2px solid #333; 
     width: 300px;
     height: 270px;
     display: flex;
@@ -33,25 +32,24 @@ body{
     margin-bottom: 20px;
     font-size: 60px;
     font-family: digital-7;
-    background-color: #050505; /* Ekdum jet black background */
-    color: #ff1a1a; /* Bright Red */
-    text-shadow: 0 0 15px rgba(255, 26, 26, 0.8); /* Red Neon Glow */
+    background-color: #050505; 
+    color: #ff1a1a; 
+    text-shadow: 0 0 15px rgba(255, 26, 26, 0.8);
     border: 2px solid #222;
     border-radius: 5px;
     text-align: center;
-    /* Baki height, width, font-size apna purana wala hi rakhna */
 }
 
 h1 {
-    color: #ffcc00; /* Classic Scoreboard Gold */
-    text-shadow: 0 0 8px rgba(255, 204, 0, 0.5); /* Halka sa glow */
+    color: #ffcc00; 
+    text-shadow: 0 0 8px rgba(255, 204, 0, 0.5); 
 }
 
 .undo {
     display:block;
     margin: auto;
     margin-top: 15px;
-    background-color: #990000; /* Dark Muted Red */
+    background-color: #990000; 
     color: white;
     border: 1px solid #ff3333;
 }
@@ -64,8 +62,8 @@ h1 {
     margin: auto;
     margin-top: 15px;
     margin-bottom: 15px;
-    background-color: #ffcc00; /* Gold/Yellow button */
-    color: #000000; /* Black text */
+    background-color: #ffcc00; 
+    color: #000000; 
     font-weight: bold;
     border: none;
     border-radius: 5px;
@@ -77,8 +75,8 @@ h1 {
     background-color: #e6b800;
 }
 button {
-    background-color: #2d3748; /* Dark Grey */
-    color: #ffffff; /* White text */
+    background-color: #2d3748; 
+    color: #ffffff;
     border: 1px solid #4a5568;
     border-radius: 5px;
     cursor: pointer;
