@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="team">
+                    <div class="team_1">
+                        <h1>TEAM 1</h1>
+                        <p id="score">0</p>
+                        <button onclick="single()">+1</button>
+                        <button onclick="double()">+2</button>
+                        <button onclick="triple()">+3</button>
+                        <button class="undo" onclick="undo()">UNDO</button>
+                    </div>
+                    <div class="team_2">
+                        <h1>TEAM 2</h1>
+                        <p id="calc">0</p>
+                        <button onclick="one()">+1</button>
+                        <button onclick="two()">+2</button>
+                        <button onclick="three()">+3</button>
+                        <button class="undo" onclick="reset()">UNDO</button>
+                    </div>
+            </div>
+            <button class="new" onclick="restart()">NEW GAME</button>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
